@@ -12,7 +12,7 @@ The application runs in the IDE and is available at http://localhost:8081/
 - changing a note,
 - logical deletion (changing the value of the IsDeleted field),
 - physical deletion of a note.
-2. In addition, the repository implements methods that support SELECT selections by the value of any of the fields of the note (filtering at the client level), SELECT selections of record portions (pagination at the client level), as well as SELECT selections that return the number of records in the database in total or with a filtering criterion.
+2. In addition, the repository implements methods that support SELECT selections by the value of any of the fields of the note (filtering at the client level), SELECT selections of record portions (pagination at the client level), as well as SELECT selections that return the number of records in the database in total or with a filtering criterion (to calculate the number of pages in the client).
 3. A DTO object is used to exchange data with the client.
 
 P.S.: This version of the application implements only the server.
@@ -32,7 +32,7 @@ RU: Проект на языке Java и Spring Boot по учету замет�
 - изменение заметки,
 - логическое удаление (изменение значения поля isDeleted),
 - физическое удаление заметки.
-2. Кроме того, в репозитории реализованы методы, поддерживающие SELECT выборки по значению любого из полей заметки (фильтрация на уровне клиента), SELECT выборки порций записи (пострачный просмотр на уровне клиента), а также SELECT выборки, возвращающие количество записей в БД всего или с критерием фильтрации.
+2. Кроме того, в репозитории реализованы методы, поддерживающие SELECT выборки по значению любого из полей заметки (фильтрация на уровне клиента), SELECT выборки порций записи (пострачный просмотр на уровне клиента), а также SELECT выборки, возвращающие количество записей в БД всего или с критерием фильтрации (для расчета количества страниц в клиенте).
 3. Для обмена данными с клиентом используется DTO объект.
 
 P.S.: Данная версия приложения реализует только сервер.
